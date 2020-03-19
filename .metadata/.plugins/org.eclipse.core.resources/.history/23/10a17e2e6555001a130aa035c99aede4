@@ -1,0 +1,9 @@
+package com.example.demo;
+
+public class Person {
+
+	public Person()
+	{
+		System.out.println("yes config class also works along dependency injection");
+	}
+}

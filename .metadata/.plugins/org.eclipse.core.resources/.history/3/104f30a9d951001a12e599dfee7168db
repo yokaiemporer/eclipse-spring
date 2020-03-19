@@ -1,0 +1,8 @@
+package com.example.demo;
+
+public class GenericParams {
+
+	private int a;
+	private String b;
+	private boolean c;
+}

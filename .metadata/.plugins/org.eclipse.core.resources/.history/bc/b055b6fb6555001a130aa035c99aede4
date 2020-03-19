@@ -1,0 +1,50 @@
+package com.example.demo;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+
+@Component
+@Scope(value="singleton")
+public class Testdude {
+	private int age;
+	private int height;
+	
+	@Autowired
+	private Person person;
+	public Person getPerson() {
+		return person;
+	}
+	public void setPerson(Person person) {
+		this.person = person;
+	}
+	public Laptop getLappy() {
+		return lappy;
+	}
+	public void setLappy(Laptop lappy) {
+		this.lappy = lappy;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	public Testdude() {
+		super();
+		System.out.println("gdamn");
+	}
+	public int getHeight() {
+		return height;
+	}
+	public void setHeight(int height) {
+		this.height = height;
+	}
+	public void ohyeah()
+	{
+		System.out.println("yes bro it works!");
+		lappy.show();
+		person.printo();
+	}
+}

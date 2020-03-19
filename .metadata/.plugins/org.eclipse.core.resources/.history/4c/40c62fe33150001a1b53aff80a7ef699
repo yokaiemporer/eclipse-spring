@@ -1,0 +1,20 @@
+package com.maventest;
+
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.web.servlet.view.InternalResourceViewResolver;
+
+@Configuration
+@ComponentScan({"com.maventest"})
+public class maventestConfig {
+	@Bean
+	public InternalResourceViewResolver viewResolver()
+	{
+		InternalResourceViewResolver vr=new InternalResourceViewResolver();
+		vr.setPrefix("/WEB-INF/");
+		vr.setSuffix(".jsp");
+		return vr;
+		
+		//used for internal search relocation of files(web pages)
+	}
+}

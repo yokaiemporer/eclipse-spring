@@ -1,0 +1,6 @@
+package com.maventest;
+@Configtation
+@ComponentScan({"com.maventest"})
+public class maventestConfig {
+
+}

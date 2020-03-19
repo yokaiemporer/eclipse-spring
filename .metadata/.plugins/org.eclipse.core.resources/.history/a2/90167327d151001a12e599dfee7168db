@@ -1,0 +1,13 @@
+package com.example.demo;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class DispCunt {
+	@RequestMapping("display")
+	public void display()
+	{
+		System.out.println("yes");
+	}
+	
+}

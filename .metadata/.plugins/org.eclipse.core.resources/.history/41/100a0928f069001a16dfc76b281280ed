@@ -1,0 +1,9 @@
+package com.example.demo;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.data.repository.CrudRepository;
+@Configuration
+public interface AlienRepository extends CrudRepository<Alien,Integer> {
+	
+	
+
+}

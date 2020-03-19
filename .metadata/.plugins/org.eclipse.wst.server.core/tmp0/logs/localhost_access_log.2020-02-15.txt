@@ -1,0 +1,14 @@
+127.0.0.1 - - [15/Feb/2020:20:22:03 +0530] "GET / HTTP/1.1" 404 994
+127.0.0.1 - - [15/Feb/2020:20:22:07 +0530] "GET /Demomvc/index.jsp HTTP/1.1" 200 52
+127.0.0.1 - - [15/Feb/2020:20:24:20 +0530] "GET /Demomvc/index.jsp HTTP/1.1" 200 52
+0:0:0:0:0:0:0:1 - - [15/Feb/2020:20:24:57 +0530] "GET /Demomvc/index.jsp HTTP/1.1" 200 52
+0:0:0:0:0:0:0:1 - - [15/Feb/2020:20:24:58 +0530] "GET /favicon.ico HTTP/1.1" 404 1016
+0:0:0:0:0:0:0:1 - - [15/Feb/2020:20:28:49 +0530] "GET /Demomvc/index.jsp HTTP/1.1" 200 159
+0:0:0:0:0:0:0:1 - - [15/Feb/2020:20:28:55 +0530] "GET /Demomvc/index.jsp?t1=2&t2=4 HTTP/1.1" 200 159
+127.0.0.1 - - [15/Feb/2020:20:55:40 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [15/Feb/2020:20:55:42 +0530] "GET /Demomvc/WEB-INF/classes/com/maventest/addController.java HTTP/1.1" 404 992
+127.0.0.1 - - [15/Feb/2020:21:00:34 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [15/Feb/2020:21:00:34 +0530] "GET /Demomvc/WEB-INF/maventest-servlet.xml HTTP/1.1" 404 992
+127.0.0.1 - - [15/Feb/2020:21:02:17 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [15/Feb/2020:21:02:17 +0530] "GET /Demomvc/WEB-INF/web.xml HTTP/1.1" 404 992
+0:0:0:0:0:0:0:1 - - [15/Feb/2020:23:58:17 +0530] "GET /Demomvc/WEB-INF/web.xml HTTP/1.1" 404 992
